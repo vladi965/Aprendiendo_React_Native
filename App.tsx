@@ -10,11 +10,12 @@ import ScrollViewPage from './src/ScrollView'
 import ListViews from './src/List_Views'
 import SectionListPage from './src/List_Views/indexTwo'
 import PlatformCode from './src/Platform-Specific-Code'
+import LotsOfStyles from "./src/UI-Interaction/LotsOfStyles"
 
 const App = () => {
   return (
     <View>
-        <PlatformCode />
+        <LotsOfStyles />
     </View>
   )
 }
