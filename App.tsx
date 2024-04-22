@@ -11,11 +11,14 @@ import ListViews from './src/List_Views'
 import SectionListPage from './src/List_Views/indexTwo'
 import PlatformCode from './src/Platform-Specific-Code'
 import LotsOfStyles from "./src/UI-Interaction/LotsOfStyles"
+import FixedDimensionsBasics from './src/UI-Interaction/FixedDimensionsBasics'
+import Flex from './src/UI-Interaction/Flex'
+import FlexDirectionBasics from './src/UI-Interaction/FlexDirectionBasics'
 
 const App = () => {
   return (
     <View>
-        <LotsOfStyles />
+        <FlexDirectionBasics />
     </View>
   )
 }
